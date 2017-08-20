@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E53885191F499A4300BF2580 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53885181F499A4300BF2580 /* AppDelegate.swift */; };
+		E538851B1F499A4300BF2580 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E538851A1F499A4300BF2580 /* ViewController.swift */; };
+		E538851E1F499A4300BF2580 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E538851C1F499A4300BF2580 /* Main.storyboard */; };
+		E53885201F499A4300BF2580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E538851F1F499A4300BF2580 /* Assets.xcassets */; };
+		E53885231F499A4300BF2580 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53885211F499A4300BF2580 /* LaunchScreen.storyboard */; };
+		E538852E1F499A4300BF2580 /* multyPeer_ConnectivityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E538852D1F499A4300BF2580 /* multyPeer_ConnectivityTests.swift */; };
+		E53885391F499A4300BF2580 /* multyPeer_ConnectivityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53885381F499A4300BF2580 /* multyPeer_ConnectivityUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E538852A1F499A4300BF2580 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E538850D1F499A4300BF2580 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E53885141F499A4300BF2580;
+			remoteInfo = "multyPeer Connectivity";
+		};
+		E53885351F499A4300BF2580 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E538850D1F499A4300BF2580 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E53885141F499A4300BF2580;
+			remoteInfo = "multyPeer Connectivity";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E53885151F499A4300BF2580 /* multyPeer Connectivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "multyPeer Connectivity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E53885181F499A4300BF2580 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E538851A1F499A4300BF2580 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E538851D1F499A4300BF2580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E538851F1F499A4300BF2580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E53885221F499A4300BF2580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E53885241F499A4300BF2580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E53885291F499A4300BF2580 /* multyPeer ConnectivityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "multyPeer ConnectivityTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E538852D1F499A4300BF2580 /* multyPeer_ConnectivityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multyPeer_ConnectivityTests.swift; sourceTree = "<group>"; };
+		E538852F1F499A4300BF2580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E53885341F499A4300BF2580 /* multyPeer ConnectivityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "multyPeer ConnectivityUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E53885381F499A4300BF2580 /* multyPeer_ConnectivityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multyPeer_ConnectivityUITests.swift; sourceTree = "<group>"; };
+		E538853A1F499A4300BF2580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E53885121F499A4300BF2580 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E53885261F499A4300BF2580 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E53885311F499A4300BF2580 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E538850C1F499A4300BF2580 = {
+			isa = PBXGroup;
+			children = (
+				E53885171F499A4300BF2580 /* multyPeer Connectivity */,
+				E538852C1F499A4300BF2580 /* multyPeer ConnectivityTests */,
+				E53885371F499A4300BF2580 /* multyPeer ConnectivityUITests */,
+				E53885161F499A4300BF2580 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E53885161F499A4300BF2580 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E53885151F499A4300BF2580 /* multyPeer Connectivity.app */,
+				E53885291F499A4300BF2580 /* multyPeer ConnectivityTests.xctest */,
+				E53885341F499A4300BF2580 /* multyPeer ConnectivityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E53885171F499A4300BF2580 /* multyPeer Connectivity */ = {
+			isa = PBXGroup;
+			children = (
+				E53885181F499A4300BF2580 /* AppDelegate.swift */,
+				E538851A1F499A4300BF2580 /* ViewController.swift */,
+				E538851C1F499A4300BF2580 /* Main.storyboard */,
+				E538851F1F499A4300BF2580 /* Assets.xcassets */,
+				E53885211F499A4300BF2580 /* LaunchScreen.storyboard */,
+				E53885241F499A4300BF2580 /* Info.plist */,
+			);
+			path = "multyPeer Connectivity";
+			sourceTree = "<group>";
+		};
+		E538852C1F499A4300BF2580 /* multyPeer ConnectivityTests */ = {
+			isa = PBXGroup;
+			children = (
+				E538852D1F499A4300BF2580 /* multyPeer_ConnectivityTests.swift */,
+				E538852F1F499A4300BF2580 /* Info.plist */,
+			);
+			path = "multyPeer ConnectivityTests";
+			sourceTree = "<group>";
+		};
+		E53885371F499A4300BF2580 /* multyPeer ConnectivityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E53885381F499A4300BF2580 /* multyPeer_ConnectivityUITests.swift */,
+				E538853A1F499A4300BF2580 /* Info.plist */,
+			);
+			path = "multyPeer ConnectivityUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E53885141F499A4300BF2580 /* multyPeer Connectivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E538853D1F499A4300BF2580 /* Build configuration list for PBXNativeTarget "multyPeer Connectivity" */;
+			buildPhases = (
+				E53885111F499A4300BF2580 /* Sources */,
+				E53885121F499A4300BF2580 /* Frameworks */,
+				E53885131F499A4300BF2580 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "multyPeer Connectivity";
+			productName = "multyPeer Connectivity";
+			productReference = E53885151F499A4300BF2580 /* multyPeer Connectivity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E53885281F499A4300BF2580 /* multyPeer ConnectivityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E53885401F499A4300BF2580 /* Build configuration list for PBXNativeTarget "multyPeer ConnectivityTests" */;
+			buildPhases = (
+				E53885251F499A4300BF2580 /* Sources */,
+				E53885261F499A4300BF2580 /* Frameworks */,
+				E53885271F499A4300BF2580 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E538852B1F499A4300BF2580 /* PBXTargetDependency */,
+			);
+			name = "multyPeer ConnectivityTests";
+			productName = "multyPeer ConnectivityTests";
+			productReference = E53885291F499A4300BF2580 /* multyPeer ConnectivityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E53885331F499A4300BF2580 /* multyPeer ConnectivityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E53885431F499A4300BF2580 /* Build configuration list for PBXNativeTarget "multyPeer ConnectivityUITests" */;
+			buildPhases = (
+				E53885301F499A4300BF2580 /* Sources */,
+				E53885311F499A4300BF2580 /* Frameworks */,
+				E53885321F499A4300BF2580 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E53885361F499A4300BF2580 /* PBXTargetDependency */,
+			);
+			name = "multyPeer ConnectivityUITests";
+			productName = "multyPeer ConnectivityUITests";
+			productReference = E53885341F499A4300BF2580 /* multyPeer ConnectivityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E538850D1F499A4300BF2580 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Andrew;
+				TargetAttributes = {
+					E53885141F499A4300BF2580 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					E53885281F499A4300BF2580 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = E53885141F499A4300BF2580;
+					};
+					E53885331F499A4300BF2580 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = E53885141F499A4300BF2580;
+					};
+				};
+			};
+			buildConfigurationList = E53885101F499A4300BF2580 /* Build configuration list for PBXProject "multyPeer Connectivity" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E538850C1F499A4300BF2580;
+			productRefGroup = E53885161F499A4300BF2580 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E53885141F499A4300BF2580 /* multyPeer Connectivity */,
+				E53885281F499A4300BF2580 /* multyPeer ConnectivityTests */,
+				E53885331F499A4300BF2580 /* multyPeer ConnectivityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E53885131F499A4300BF2580 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53885231F499A4300BF2580 /* LaunchScreen.storyboard in Resources */,
+				E53885201F499A4300BF2580 /* Assets.xcassets in Resources */,
+				E538851E1F499A4300BF2580 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E53885271F499A4300BF2580 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E53885321F499A4300BF2580 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E53885111F499A4300BF2580 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E538851B1F499A4300BF2580 /* ViewController.swift in Sources */,
+				E53885191F499A4300BF2580 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E53885251F499A4300BF2580 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E538852E1F499A4300BF2580 /* multyPeer_ConnectivityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E53885301F499A4300BF2580 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53885391F499A4300BF2580 /* multyPeer_ConnectivityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E538852B1F499A4300BF2580 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E53885141F499A4300BF2580 /* multyPeer Connectivity */;
+			targetProxy = E538852A1F499A4300BF2580 /* PBXContainerItemProxy */;
+		};
+		E53885361F499A4300BF2580 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E53885141F499A4300BF2580 /* multyPeer Connectivity */;
+			targetProxy = E53885351F499A4300BF2580 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E538851C1F499A4300BF2580 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E538851D1F499A4300BF2580 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E53885211F499A4300BF2580 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E53885221F499A4300BF2580 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E538853B1F499A4300BF2580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E538853C1F499A4300BF2580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E538853E1F499A4300BF2580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WF8TUJV66R;
+				INFOPLIST_FILE = "multyPeer Connectivity/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AmzaAndrei.multyPeer-Connectivity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E538853F1F499A4300BF2580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WF8TUJV66R;
+				INFOPLIST_FILE = "multyPeer Connectivity/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AmzaAndrei.multyPeer-Connectivity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E53885411F499A4300BF2580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WF8TUJV66R;
+				INFOPLIST_FILE = "multyPeer ConnectivityTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AmzaAndrei.multyPeer-ConnectivityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/multyPeer Connectivity.app/multyPeer Connectivity";
+			};
+			name = Debug;
+		};
+		E53885421F499A4300BF2580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WF8TUJV66R;
+				INFOPLIST_FILE = "multyPeer ConnectivityTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AmzaAndrei.multyPeer-ConnectivityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/multyPeer Connectivity.app/multyPeer Connectivity";
+			};
+			name = Release;
+		};
+		E53885441F499A4300BF2580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WF8TUJV66R;
+				INFOPLIST_FILE = "multyPeer ConnectivityUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AmzaAndrei.multyPeer-ConnectivityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "multyPeer Connectivity";
+			};
+			name = Debug;
+		};
+		E53885451F499A4300BF2580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WF8TUJV66R;
+				INFOPLIST_FILE = "multyPeer ConnectivityUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AmzaAndrei.multyPeer-ConnectivityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "multyPeer Connectivity";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E53885101F499A4300BF2580 /* Build configuration list for PBXProject "multyPeer Connectivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E538853B1F499A4300BF2580 /* Debug */,
+				E538853C1F499A4300BF2580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E538853D1F499A4300BF2580 /* Build configuration list for PBXNativeTarget "multyPeer Connectivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E538853E1F499A4300BF2580 /* Debug */,
+				E538853F1F499A4300BF2580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E53885401F499A4300BF2580 /* Build configuration list for PBXNativeTarget "multyPeer ConnectivityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E53885411F499A4300BF2580 /* Debug */,
+				E53885421F499A4300BF2580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E53885431F499A4300BF2580 /* Build configuration list for PBXNativeTarget "multyPeer ConnectivityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E53885441F499A4300BF2580 /* Debug */,
+				E53885451F499A4300BF2580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E538850D1F499A4300BF2580 /* Project object */;
+}
