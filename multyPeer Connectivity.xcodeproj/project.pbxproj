@@ -14,6 +14,7 @@
 		E53885231F499A4300BF2580 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53885211F499A4300BF2580 /* LaunchScreen.storyboard */; };
 		E538852E1F499A4300BF2580 /* multyPeer_ConnectivityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E538852D1F499A4300BF2580 /* multyPeer_ConnectivityTests.swift */; };
 		E53885391F499A4300BF2580 /* multyPeer_ConnectivityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53885381F499A4300BF2580 /* multyPeer_ConnectivityUITests.swift */; };
+		E596CA741F499D31009F59B3 /* multyPeerConnectionClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E596CA731F499D31009F59B3 /* multyPeerConnectionClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E53885341F499A4300BF2580 /* multyPeer ConnectivityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "multyPeer ConnectivityUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53885381F499A4300BF2580 /* multyPeer_ConnectivityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multyPeer_ConnectivityUITests.swift; sourceTree = "<group>"; };
 		E538853A1F499A4300BF2580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E596CA731F499D31009F59B3 /* multyPeerConnectionClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multyPeerConnectionClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				E53885181F499A4300BF2580 /* AppDelegate.swift */,
 				E538851A1F499A4300BF2580 /* ViewController.swift */,
+				E596CA731F499D31009F59B3 /* multyPeerConnectionClass.swift */,
 				E538851C1F499A4300BF2580 /* Main.storyboard */,
 				E538851F1F499A4300BF2580 /* Assets.xcassets */,
 				E53885211F499A4300BF2580 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E596CA741F499D31009F59B3 /* multyPeerConnectionClass.swift in Sources */,
 				E538851B1F499A4300BF2580 /* ViewController.swift in Sources */,
 				E53885191F499A4300BF2580 /* AppDelegate.swift in Sources */,
 			);
@@ -423,7 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WF8TUJV66R;
+				DEVELOPMENT_TEAM = KT8F743HP3;
 				INFOPLIST_FILE = "multyPeer Connectivity/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "AmzaAndrei.multyPeer-Connectivity";
@@ -437,7 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = WF8TUJV66R;
+				DEVELOPMENT_TEAM = KT8F743HP3;
 				INFOPLIST_FILE = "multyPeer Connectivity/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "AmzaAndrei.multyPeer-Connectivity";
@@ -528,6 +532,7 @@
 				E538853F1F499A4300BF2580 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E53885401F499A4300BF2580 /* Build configuration list for PBXNativeTarget "multyPeer ConnectivityTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +541,7 @@
 				E53885421F499A4300BF2580 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E53885431F499A4300BF2580 /* Build configuration list for PBXNativeTarget "multyPeer ConnectivityUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +550,7 @@
 				E53885451F499A4300BF2580 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
